@@ -38,7 +38,11 @@ Data below shows that from the output data most of the customers did not choose 
 | Month         | September, October, December, and March showed higher likelihood compared to other months. March showed the maximum rate of opening a term deposit account |
 | Day of Week   | Day of week not very relevant. All days show similar likelihood of customers opening a term deposit account |
 
-![Figure 2: Univariate analysis of categorical data](#)
+![image](https://github.com/user-attachments/assets/6802a862-c461-4609-b54d-cb387061e588)
+
+![Figure 2: Univariate analysis of categorical data
+
+![image](https://github.com/user-attachments/assets/f3baa22a-4b89-41d8-80d6-041e47c277fe)
 
 ![Figure 3: Bar plot of categorical data](#)
 
@@ -46,7 +50,12 @@ Data below shows that from the output data most of the customers did not choose 
 
 The feature `previous` shows positive impact on the term subscription with the optimum value at #3. The histogram shows the data imbalance and cannot be conclusive. The same goes for the other parameters too.
 
+![image](https://github.com/user-attachments/assets/ecf30427-2cd7-4c9e-bc74-38e4201f9e0e)
+
 ![Figure 4: Correlation Matrix](#)
+
+![image](https://github.com/user-attachments/assets/31fd9617-4ea1-43d7-8462-79e7437efc0d)
+
 
 ![Figure 5: `previous` Feature Vs Term Deposit Subscription](#)
 
@@ -59,6 +68,10 @@ The business goal is to find a model that can explain success of a contact durin
 Baseline Model: Accuracy: 0.8697. This is expected since there is significant imbalance in the data.
 
 The table below shows the Accuracy for the different models and the corresponding parameter. The best test accuracy was obtained for the Decision Tree Classifier with a max depth of 5. The test accuracy of 0.8871 is very close to the baseline model accuracy of 0.8697. The features impacting the decision tree shows the economic conditions and `pdays` shows strong dependency.
+![image](https://github.com/user-attachments/assets/f035966f-d71b-49f9-aff0-2dbb26777ec5)
+
+![image](https://github.com/user-attachments/assets/4aa8ea8e-8ea1-400e-a046-9bb8c7660be1)
+
 
 ### Model #2
 
@@ -67,10 +80,14 @@ Remove all socio-economic features.
 - The hypothesis is the general population may not necessarily be in sync with the national economy and may not influence personal decisions.
 
 The table below shows that there is no significant improvement with this model.
+![image](https://github.com/user-attachments/assets/d9d7aed9-e686-4663-bdd3-2a55c35c4d28)
+
 
 ### Decision Tree Probability Threshold Tuning
 
 Decision Tree Probability Threshold tuning shows that the Test Accuracy was optimum at decision threshold of 0.5.
+![image](https://github.com/user-attachments/assets/f2794169-5c4e-46cd-8435-21c199eb38f9)
+
 
 ## Conclusion
 
